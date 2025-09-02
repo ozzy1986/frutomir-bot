@@ -1,0 +1,2575 @@
+Time: 02.09.2025 15:46:08
+Chat: -1002878974668
+Topic: 18
+Text: 
+---
+Array
+(
+    [message_id] => 2487
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817168
+    [message_thread_id] => 18
+    [reply_to_message] => Array
+        (
+            [message_id] => 18
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678262
+            [message_thread_id] => 18
+            [forum_topic_created] => Array
+                (
+                    [name] => Соки, вода и напитки 🧃💧🥤
+                    [icon_color] => 16749490
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJt2i25xCOsKjMJh_mupREoZA96OufAAJS_zEbc2q4SdPL3kXEKMMcAQADAgADcwADNgQ
+                    [file_unique_id] => AQADUv8xG3NquEl4
+                    [file_size] => 1057
+                    [width] => 67
+                    [height] => 90
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJt2i25xCOsKjMJh_mupREoZA96OufAAJS_zEbc2q4SdPL3kXEKMMcAQADAgADbQADNgQ
+                    [file_unique_id] => AQADUv8xG3NquEly
+                    [file_size] => 14324
+                    [width] => 240
+                    [height] => 320
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJt2i25xCOsKjMJh_mupREoZA96OufAAJS_zEbc2q4SdPL3kXEKMMcAQADAgADeAADNgQ
+                    [file_unique_id] => AQADUv8xG3NquEl9
+                    [file_size] => 59953
+                    [width] => 600
+                    [height] => 800
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJt2i25xCOsKjMJh_mupREoZA96OufAAJS_zEbc2q4SdPL3kXEKMMcAQADAgADeQADNgQ
+                    [file_unique_id] => AQADUv8xG3NquEl-
+                    [file_size] => 109344
+                    [width] => 960
+                    [height] => 1280
+                )
+
+        )
+
+    [caption] => Пиво "ГУСЬ ЖАТЕЦКИЙ " 1,35л 192р
+    [is_topic_message] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:46:09
+Chat: -1002878974668
+Topic: 18
+Text: 
+---
+Array
+(
+    [message_id] => 2488
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817168
+    [message_thread_id] => 18
+    [reply_to_message] => Array
+        (
+            [message_id] => 18
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678262
+            [message_thread_id] => 18
+            [forum_topic_created] => Array
+                (
+                    [name] => Соки, вода и напитки 🧃💧🥤
+                    [icon_color] => 16749490
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJuGi25xDc1EaiR3HWbsUnR9P8qlljAAJV_zEbc2q4SaWzKhujZJvuAQADAgADcwADNgQ
+                    [file_unique_id] => AQADVf8xG3NquEl4
+                    [file_size] => 1077
+                    [width] => 67
+                    [height] => 90
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJuGi25xDc1EaiR3HWbsUnR9P8qlljAAJV_zEbc2q4SaWzKhujZJvuAQADAgADbQADNgQ
+                    [file_unique_id] => AQADVf8xG3NquEly
+                    [file_size] => 13766
+                    [width] => 240
+                    [height] => 320
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJuGi25xDc1EaiR3HWbsUnR9P8qlljAAJV_zEbc2q4SaWzKhujZJvuAQADAgADeAADNgQ
+                    [file_unique_id] => AQADVf8xG3NquEl9
+                    [file_size] => 55045
+                    [width] => 600
+                    [height] => 800
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJuGi25xDc1EaiR3HWbsUnR9P8qlljAAJV_zEbc2q4SaWzKhujZJvuAQADAgADeQADNgQ
+                    [file_unique_id] => AQADVf8xG3NquEl-
+                    [file_size] => 101005
+                    [width] => 960
+                    [height] => 1280
+                )
+
+        )
+
+    [caption] => Пиво "БЛАМБЕРГ" 1,35л 164р
+    [is_topic_message] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:46:30
+Chat: -1002878974668
+Topic: 8
+Text: 
+---
+Array
+(
+    [message_id] => 2489
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817189
+    [message_thread_id] => 8
+    [reply_to_message] => Array
+        (
+            [message_id] => 8
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678171
+            [message_thread_id] => 8
+            [forum_topic_created] => Array
+                (
+                    [name] => Кетчуп, майонез и соусы 🍅🥫
+                    [icon_color] => 16749490
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJuWi25yUYBh4_XxYKhi4aJvgsNfUbAAJZ_zEbc2q4Sd3bswABWMEYvgEAAwIAA3MAAzYE
+                    [file_unique_id] => AQADWf8xG3NquEl4
+                    [file_size] => 1197
+                    [width] => 67
+                    [height] => 90
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJuWi25yUYBh4_XxYKhi4aJvgsNfUbAAJZ_zEbc2q4Sd3bswABWMEYvgEAAwIAA20AAzYE
+                    [file_unique_id] => AQADWf8xG3NquEly
+                    [file_size] => 18574
+                    [width] => 240
+                    [height] => 320
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJuWi25yUYBh4_XxYKhi4aJvgsNfUbAAJZ_zEbc2q4Sd3bswABWMEYvgEAAwIAA3gAAzYE
+                    [file_unique_id] => AQADWf8xG3NquEl9
+                    [file_size] => 78321
+                    [width] => 600
+                    [height] => 800
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJuWi25yUYBh4_XxYKhi4aJvgsNfUbAAJZ_zEbc2q4Sd3bswABWMEYvgEAAwIAA3kAAzYE
+                    [file_unique_id] => AQADWf8xG3NquEl-
+                    [file_size] => 145037
+                    [width] => 960
+                    [height] => 1280
+                )
+
+        )
+
+    [caption] => Пакеты 18×35  360р
+Розовые 
+(в такие фасуем товар)
+    [is_topic_message] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:47:34
+Chat: -1002878974668
+Topic: 8
+Text: 
+---
+Array
+(
+    [message_id] => 2490
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817253
+    [message_thread_id] => 8
+    [reply_to_message] => Array
+        (
+            [message_id] => 8
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678171
+            [message_thread_id] => 8
+            [forum_topic_created] => Array
+                (
+                    [name] => Кетчуп, майонез и соусы 🍅🥫
+                    [icon_color] => 16749490
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [media_group_id] => 14054538030200114
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJumi252UgWMHJVoUuLVtjg5ZY9SebAAJH_DEbnA24SeE0eyMUvB60AQADAgADcwADNgQ
+                    [file_unique_id] => AQADR_wxG5wNuEl4
+                    [file_size] => 1147
+                    [width] => 67
+                    [height] => 90
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJumi252UgWMHJVoUuLVtjg5ZY9SebAAJH_DEbnA24SeE0eyMUvB60AQADAgADbQADNgQ
+                    [file_unique_id] => AQADR_wxG5wNuEly
+                    [file_size] => 13091
+                    [width] => 240
+                    [height] => 320
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJumi252UgWMHJVoUuLVtjg5ZY9SebAAJH_DEbnA24SeE0eyMUvB60AQADAgADeAADNgQ
+                    [file_unique_id] => AQADR_wxG5wNuEl9
+                    [file_size] => 51557
+                    [width] => 600
+                    [height] => 800
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJumi252UgWMHJVoUuLVtjg5ZY9SebAAJH_DEbnA24SeE0eyMUvB60AQADAgADeQADNgQ
+                    [file_unique_id] => AQADR_wxG5wNuEl-
+                    [file_size] => 90056
+                    [width] => 960
+                    [height] => 1280
+                )
+
+        )
+
+    [caption] => ПАКЕТЫ ФАСОВОЧНЫЕ ДЛЯ ПИЩЕВЫХ ПРОДУКТОВ 
+
+14+8*35   218 р
+
+10+8*27   218 р
+    [is_topic_message] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:47:34
+Chat: -1002878974668
+Topic: 8
+Text: 
+---
+Array
+(
+    [message_id] => 2491
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817253
+    [message_thread_id] => 8
+    [reply_to_message] => Array
+        (
+            [message_id] => 8
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678171
+            [message_thread_id] => 8
+            [forum_topic_created] => Array
+                (
+                    [name] => Кетчуп, майонез и соусы 🍅🥫
+                    [icon_color] => 16749490
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [media_group_id] => 14054538030200114
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJu2i252UPaBa2bS_bo2rFTfpVGpJKAAJI_DEbnA24SQezEtirLbNtAQADAgADcwADNgQ
+                    [file_unique_id] => AQADSPwxG5wNuEl4
+                    [file_size] => 1245
+                    [width] => 67
+                    [height] => 90
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJu2i252UPaBa2bS_bo2rFTfpVGpJKAAJI_DEbnA24SQezEtirLbNtAQADAgADbQADNgQ
+                    [file_unique_id] => AQADSPwxG5wNuEly
+                    [file_size] => 14270
+                    [width] => 240
+                    [height] => 320
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJu2i252UPaBa2bS_bo2rFTfpVGpJKAAJI_DEbnA24SQezEtirLbNtAQADAgADeAADNgQ
+                    [file_unique_id] => AQADSPwxG5wNuEl9
+                    [file_size] => 55562
+                    [width] => 600
+                    [height] => 800
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJu2i252UPaBa2bS_bo2rFTfpVGpJKAAJI_DEbnA24SQezEtirLbNtAQADAgADeQADNgQ
+                    [file_unique_id] => AQADSPwxG5wNuEl-
+                    [file_size] => 97809
+                    [width] => 960
+                    [height] => 1280
+                )
+
+        )
+
+    [is_topic_message] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:54:02
+Chat: -1002878974668
+Topic: 25
+Text: 
+---
+Array
+(
+    [message_id] => 2492
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817642
+    [message_thread_id] => 25
+    [reply_to_message] => Array
+        (
+            [message_id] => 25
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678422
+            [message_thread_id] => 25
+            [forum_topic_created] => Array
+                (
+                    [name] => Овощи и фрукты 🥦🍎🍌
+                    [icon_color] => 16478047
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvGi26Op3pv9pvX8fUp2_NHDQxhNPAAIl_zEbc2q4SUWZ68EtaUcuAQADAgADcwADNgQ
+                    [file_unique_id] => AQADJf8xG3NquEl4
+                    [file_size] => 1586
+                    [width] => 90
+                    [height] => 67
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvGi26Op3pv9pvX8fUp2_NHDQxhNPAAIl_zEbc2q4SUWZ68EtaUcuAQADAgADbQADNgQ
+                    [file_unique_id] => AQADJf8xG3NquEly
+                    [file_size] => 24510
+                    [width] => 320
+                    [height] => 240
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvGi26Op3pv9pvX8fUp2_NHDQxhNPAAIl_zEbc2q4SUWZ68EtaUcuAQADAgADeAADNgQ
+                    [file_unique_id] => AQADJf8xG3NquEl9
+                    [file_size] => 96049
+                    [width] => 800
+                    [height] => 600
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvGi26Op3pv9pvX8fUp2_NHDQxhNPAAIl_zEbc2q4SUWZ68EtaUcuAQADAgADeQADNgQ
+                    [file_unique_id] => AQADJf8xG3NquEl-
+                    [file_size] => 172896
+                    [width] => 1280
+                    [height] => 960
+                )
+
+        )
+
+    [caption] => КУКУРУЗА 38р/шт
+    [is_topic_message] => 1
+    [is_from_offline] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:54:03
+Chat: -1002878974668
+Topic: 25
+Text: 
+---
+Array
+(
+    [message_id] => 2493
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817642
+    [message_thread_id] => 25
+    [reply_to_message] => Array
+        (
+            [message_id] => 25
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678422
+            [message_thread_id] => 25
+            [forum_topic_created] => Array
+                (
+                    [name] => Овощи и фрукты 🥦🍎🍌
+                    [icon_color] => 16478047
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvWi26OpXNejn0-u93YMobkLhBmGaAAIp_zEbc2q4Sc3ygvgFfkciAQADAgADcwADNgQ
+                    [file_unique_id] => AQADKf8xG3NquEl4
+                    [file_size] => 1485
+                    [width] => 90
+                    [height] => 67
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvWi26OpXNejn0-u93YMobkLhBmGaAAIp_zEbc2q4Sc3ygvgFfkciAQADAgADbQADNgQ
+                    [file_unique_id] => AQADKf8xG3NquEly
+                    [file_size] => 22762
+                    [width] => 320
+                    [height] => 240
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvWi26OpXNejn0-u93YMobkLhBmGaAAIp_zEbc2q4Sc3ygvgFfkciAQADAgADeAADNgQ
+                    [file_unique_id] => AQADKf8xG3NquEl9
+                    [file_size] => 100047
+                    [width] => 800
+                    [height] => 600
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvWi26OpXNejn0-u93YMobkLhBmGaAAIp_zEbc2q4Sc3ygvgFfkciAQADAgADeQADNgQ
+                    [file_unique_id] => AQADKf8xG3NquEl-
+                    [file_size] => 190726
+                    [width] => 1280
+                    [height] => 960
+                )
+
+        )
+
+    [caption] => Картофель Крымская роза 54
+    [is_topic_message] => 1
+    [is_from_offline] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:54:04
+Chat: -1002878974668
+Topic: 25
+Text: 
+---
+Array
+(
+    [message_id] => 2494
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817642
+    [message_thread_id] => 25
+    [reply_to_message] => Array
+        (
+            [message_id] => 25
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678422
+            [message_thread_id] => 25
+            [forum_topic_created] => Array
+                (
+                    [name] => Овощи и фрукты 🥦🍎🍌
+                    [icon_color] => 16478047
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvmi26OpjyOBHzTMbDxnxVJUN_NQaAAIr_zEbc2q4Sek7fcgIcYjAAQADAgADcwADNgQ
+                    [file_unique_id] => AQADK_8xG3NquEl4
+                    [file_size] => 1470
+                    [width] => 90
+                    [height] => 67
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvmi26OpjyOBHzTMbDxnxVJUN_NQaAAIr_zEbc2q4Sek7fcgIcYjAAQADAgADbQADNgQ
+                    [file_unique_id] => AQADK_8xG3NquEly
+                    [file_size] => 24511
+                    [width] => 320
+                    [height] => 240
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvmi26OpjyOBHzTMbDxnxVJUN_NQaAAIr_zEbc2q4Sek7fcgIcYjAAQADAgADeAADNgQ
+                    [file_unique_id] => AQADK_8xG3NquEl9
+                    [file_size] => 109911
+                    [width] => 800
+                    [height] => 600
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJvmi26OpjyOBHzTMbDxnxVJUN_NQaAAIr_zEbc2q4Sek7fcgIcYjAAQADAgADeQADNgQ
+                    [file_unique_id] => AQADK_8xG3NquEl-
+                    [file_size] => 204218
+                    [width] => 1280
+                    [height] => 960
+                )
+
+        )
+
+    [caption] => Авокадо 163р/шт
+    [is_topic_message] => 1
+    [is_from_offline] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:54:05
+Chat: -1002878974668
+Topic: 25
+Text: 
+---
+Array
+(
+    [message_id] => 2495
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817642
+    [message_thread_id] => 25
+    [reply_to_message] => Array
+        (
+            [message_id] => 25
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678422
+            [message_thread_id] => 25
+            [forum_topic_created] => Array
+                (
+                    [name] => Овощи и фрукты 🥦🍎🍌
+                    [icon_color] => 16478047
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJv2i26OpjDLsHvc3RF1cGqULnjzNgAAIv_zEbc2q4SeIk_HdHlcObAQADAgADcwADNgQ
+                    [file_unique_id] => AQADL_8xG3NquEl4
+                    [file_size] => 1014
+                    [width] => 90
+                    [height] => 67
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJv2i26OpjDLsHvc3RF1cGqULnjzNgAAIv_zEbc2q4SeIk_HdHlcObAQADAgADbQADNgQ
+                    [file_unique_id] => AQADL_8xG3NquEly
+                    [file_size] => 10185
+                    [width] => 320
+                    [height] => 240
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJv2i26OpjDLsHvc3RF1cGqULnjzNgAAIv_zEbc2q4SeIk_HdHlcObAQADAgADeAADNgQ
+                    [file_unique_id] => AQADL_8xG3NquEl9
+                    [file_size] => 39256
+                    [width] => 800
+                    [height] => 600
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJv2i26OpjDLsHvc3RF1cGqULnjzNgAAIv_zEbc2q4SeIk_HdHlcObAQADAgADeQADNgQ
+                    [file_unique_id] => AQADL_8xG3NquEl-
+                    [file_size] => 69806
+                    [width] => 1280
+                    [height] => 960
+                )
+
+        )
+
+    [caption] => Тыква 50р/кг
+Вес одной 0,6-, 1,8кг
+    [is_topic_message] => 1
+    [is_from_offline] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:54:05
+Chat: -1002878974668
+Topic: 25
+Text: 
+---
+Array
+(
+    [message_id] => 2496
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817642
+    [message_thread_id] => 25
+    [reply_to_message] => Array
+        (
+            [message_id] => 25
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678422
+            [message_thread_id] => 25
+            [forum_topic_created] => Array
+                (
+                    [name] => Овощи и фрукты 🥦🍎🍌
+                    [icon_color] => 16478047
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwGi26OoLWZTqQxU8YD-Ed4Q10oyuAAIRAAEyG_tluUlVzkCMI-RJxAEAAwIAA3MAAzYE
+                    [file_unique_id] => AQADEQABMhv7ZblJeA
+                    [file_size] => 1819
+                    [width] => 90
+                    [height] => 67
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwGi26OoLWZTqQxU8YD-Ed4Q10oyuAAIRAAEyG_tluUlVzkCMI-RJxAEAAwIAA20AAzYE
+                    [file_unique_id] => AQADEQABMhv7ZblJcg
+                    [file_size] => 29050
+                    [width] => 320
+                    [height] => 240
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwGi26OoLWZTqQxU8YD-Ed4Q10oyuAAIRAAEyG_tluUlVzkCMI-RJxAEAAwIAA3gAAzYE
+                    [file_unique_id] => AQADEQABMhv7ZblJfQ
+                    [file_size] => 120801
+                    [width] => 800
+                    [height] => 600
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwGi26OoLWZTqQxU8YD-Ed4Q10oyuAAIRAAEyG_tluUlVzkCMI-RJxAEAAwIAA3kAAzYE
+                    [file_unique_id] => AQADEQABMhv7ZblJfg
+                    [file_size] => 222713
+                    [width] => 1280
+                    [height] => 960
+                )
+
+        )
+
+    [caption] => ИНЖИР ТËМНЫЙ 290
+    [is_topic_message] => 1
+    [is_from_offline] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:54:06
+Chat: -1002878974668
+Topic: 25
+Text: 
+---
+Array
+(
+    [message_id] => 2497
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817642
+    [message_thread_id] => 25
+    [reply_to_message] => Array
+        (
+            [message_id] => 25
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678422
+            [message_thread_id] => 25
+            [forum_topic_created] => Array
+                (
+                    [name] => Овощи и фрукты 🥦🍎🍌
+                    [icon_color] => 16478047
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [media_group_id] => 14054541138269242
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwWi26OpUbhuz30pGhALulVGsubleAAI2_zEbc2q4SUF1CSZiMIQUAQADAgADcwADNgQ
+                    [file_unique_id] => AQADNv8xG3NquEl4
+                    [file_size] => 1824
+                    [width] => 90
+                    [height] => 67
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwWi26OpUbhuz30pGhALulVGsubleAAI2_zEbc2q4SUF1CSZiMIQUAQADAgADbQADNgQ
+                    [file_unique_id] => AQADNv8xG3NquEly
+                    [file_size] => 25108
+                    [width] => 320
+                    [height] => 240
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwWi26OpUbhuz30pGhALulVGsubleAAI2_zEbc2q4SUF1CSZiMIQUAQADAgADeAADNgQ
+                    [file_unique_id] => AQADNv8xG3NquEl9
+                    [file_size] => 96203
+                    [width] => 800
+                    [height] => 600
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwWi26OpUbhuz30pGhALulVGsubleAAI2_zEbc2q4SUF1CSZiMIQUAQADAgADeQADNgQ
+                    [file_unique_id] => AQADNv8xG3NquEl-
+                    [file_size] => 170435
+                    [width] => 1280
+                    [height] => 960
+                )
+
+        )
+
+    [caption] => Манго спелый 315р/кг
+    [is_topic_message] => 1
+    [is_from_offline] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:54:10
+Chat: -1002878974668
+Topic: 25
+Text: 
+---
+Array
+(
+    [message_id] => 2498
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817642
+    [message_thread_id] => 25
+    [reply_to_message] => Array
+        (
+            [message_id] => 25
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678422
+            [message_thread_id] => 25
+            [forum_topic_created] => Array
+                (
+                    [name] => Овощи и фрукты 🥦🍎🍌
+                    [icon_color] => 16478047
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [media_group_id] => 14054541138269242
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwmi26OpKbJCZsINwdBAdKFRMRgToAAI3_zEbc2q4SY081sp_QPSzAQADAgADcwADNgQ
+                    [file_unique_id] => AQADN_8xG3NquEl4
+                    [file_size] => 1313
+                    [width] => 90
+                    [height] => 67
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwmi26OpKbJCZsINwdBAdKFRMRgToAAI3_zEbc2q4SY081sp_QPSzAQADAgADbQADNgQ
+                    [file_unique_id] => AQADN_8xG3NquEly
+                    [file_size] => 15689
+                    [width] => 320
+                    [height] => 240
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwmi26OpKbJCZsINwdBAdKFRMRgToAAI3_zEbc2q4SY081sp_QPSzAQADAgADeAADNgQ
+                    [file_unique_id] => AQADN_8xG3NquEl9
+                    [file_size] => 64219
+                    [width] => 800
+                    [height] => 600
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJwmi26OpKbJCZsINwdBAdKFRMRgToAAI3_zEbc2q4SY081sp_QPSzAQADAgADeQADNgQ
+                    [file_unique_id] => AQADN_8xG3NquEl-
+                    [file_size] => 118178
+                    [width] => 1280
+                    [height] => 960
+                )
+
+        )
+
+    [is_topic_message] => 1
+    [is_from_offline] => 1
+)
+
+---
+
+
+Time: 02.09.2025 15:54:10
+Chat: -1002878974668
+Topic: 25
+Text: 
+---
+Array
+(
+    [message_id] => 2499
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756817642
+    [message_thread_id] => 25
+    [reply_to_message] => Array
+        (
+            [message_id] => 25
+            [from] => Array
+                (
+                    [id] => 5941954486
+                    [is_bot] => 
+                    [first_name] => Александр
+                    [last_name] => Пальчик
+                    [username] => Palchik_av
+                    [is_premium] => 1
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1753678422
+            [message_thread_id] => 25
+            [forum_topic_created] => Array
+                (
+                    [name] => Овощи и фрукты 🥦🍎🍌
+                    [icon_color] => 16478047
+                )
+
+            [is_topic_message] => 1
+        )
+
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJw2i26Or9q_1P9yJLoDwVgftuPNhqAAJJ_zEbc2q4SVNLLk78GqwZAQADAgADcwADNgQ
+                    [file_unique_id] => AQADSf8xG3NquEl4
+                    [file_size] => 1771
+                    [width] => 90
+                    [height] => 67
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJw2i26Or9q_1P9yJLoDwVgftuPNhqAAJJ_zEbc2q4SVNLLk78GqwZAQADAgADbQADNgQ
+                    [file_unique_id] => AQADSf8xG3NquEly
+                    [file_size] => 28304
+                    [width] => 320
+                    [height] => 240
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJw2i26Or9q_1P9yJLoDwVgftuPNhqAAJJ_zEbc2q4SVNLLk78GqwZAQADAgADeAADNgQ
+                    [file_unique_id] => AQADSf8xG3NquEl9
+                    [file_size] => 112924
+                    [width] => 800
+                    [height] => 600
+                )
+
+            [3] => Array
+                (
+                    [file_id] => AgACAgIAAyEFAASrmarMAAIJw2i26Or9q_1P9yJLoDwVgftuPNhqAAJJ_zEbc2q4SVNLLk78GqwZAQADAgADeQADNgQ
+                    [file_unique_id] => AQADSf8xG3NquEl-
+                    [file_size] => 204450
+                    [width] => 1280
+                    [height] => 960
+                )
+
+        )
+
+    [caption] => Виноград домашний 300р/кг
+    [is_topic_message] => 1
+    [is_from_offline] => 1
+)
+
+---
+
+
+Time: 02.09.2025 17:02:15
+Chat: -1002878974668
+Topic: —
+Text: Наталочка, спасибо за доставку, продукты. Всё просто КЛАСС. Поели инжир, как будто в Крыму побывали.
+---
+Array
+(
+    [message_id] => 2500
+    [from] => Array
+        (
+            [id] => 6320443153
+            [is_bot] => 
+            [first_name] => Валентина
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756821735
+    [text] => Наталочка, спасибо за доставку, продукты. Всё просто КЛАСС. Поели инжир, как будто в Крыму побывали.
+)
+
+---
+
+
+[02.09.2025 17:02:16] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 17:02:16] User: Валентина (ID: 6320443153)
+[02.09.2025 17:02:16] Text: Наталочка, спасибо за доставку, продукты. Всё просто КЛАСС. Поели инжир, как будто в Крыму побывали.
+[02.09.2025 17:02:16] Starting mistral call for order detection
+[02.09.2025 17:02:16] mistral result: Array
+(
+)
+
+[02.09.2025 17:02:17] Starting mistral call for order detection
+[02.09.2025 17:02:17] mistral result: Array
+(
+    [is_order] => 
+    [items] => Array
+        (
+        )
+
+)
+
+[02.09.2025 17:02:17] Starting ollama call for order detection
+[02.09.2025 17:02:17] ollama result: Array
+(
+)
+
+Time: 02.09.2025 17:03:15
+Chat: -1002878974668
+Topic: —
+Text: Наталочка, спасибо за доставку, продукты. Всё просто КЛАСС. Поели инжир, как будто в Крыму побывали.
+---
+Array
+(
+    [message_id] => 2500
+    [from] => Array
+        (
+            [id] => 6320443153
+            [is_bot] => 
+            [first_name] => Валентина
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756821735
+    [text] => Наталочка, спасибо за доставку, продукты. Всё просто КЛАСС. Поели инжир, как будто в Крыму побывали.
+)
+
+---
+
+
+[02.09.2025 17:03:16] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 17:03:16] User: Валентина (ID: 6320443153)
+[02.09.2025 17:03:16] Text: Наталочка, спасибо за доставку, продукты. Всё просто КЛАСС. Поели инжир, как будто в Крыму побывали.
+[02.09.2025 17:03:16] Starting mistral call for order detection
+[02.09.2025 17:03:16] mistral result: Array
+(
+)
+
+[02.09.2025 17:03:16] Starting mistral call for order detection
+[02.09.2025 17:03:16] mistral result: Array
+(
+    [error] => API error HTTP 429
+    [raw] => {"object":"error","message":"Service tier capacity exceeded for this model.","type":"service_tier_capacity_exceeded","param":null,"code":"3505"}
+)
+
+[02.09.2025 17:03:16] Starting ollama call for order detection
+[02.09.2025 17:03:16] ollama result: Array
+(
+)
+
+[02.09.2025 17:03:17] Starting ollama call for order detection
+[02.09.2025 17:03:17] ollama result: Array
+(
+)
+
+[02.09.2025 17:03:17] Starting yandex call for order detection
+[02.09.2025 17:03:17] yandex result: Array
+(
+)
+
+[02.09.2025 17:03:17] Starting yandex call for order detection
+[02.09.2025 17:03:17] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T14:03:17.180742027Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 17:03:17] === END ORDER DETECTION ===
+
+[02.09.2025 17:03:23] Starting ollama call for order detection
+[02.09.2025 17:03:23] ollama result: Array
+(
+)
+
+[02.09.2025 17:03:23] Starting yandex call for order detection
+[02.09.2025 17:03:23] yandex result: Array
+(
+)
+
+[02.09.2025 17:03:23] Starting yandex call for order detection
+[02.09.2025 17:03:23] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T14:03:23.642146337Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 17:03:23] === END ORDER DETECTION ===
+
+Time: 02.09.2025 19:19:21
+Chat: -1002878974668
+Topic: —
+Text: Добрый вечер Наталья,  подскажите пожалуйста, а можно доставку после семи вечера заказать?
+---
+Array
+(
+    [message_id] => 2501
+    [from] => Array
+        (
+            [id] => 5442362835
+            [is_bot] => 
+            [first_name] => Лена
+            [last_name] => Титова
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756829961
+    [text] => Добрый вечер Наталья,  подскажите пожалуйста, а можно доставку после семи вечера заказать?
+)
+
+---
+
+
+[02.09.2025 19:19:21] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 19:19:21] User: Лена Титова (ID: 5442362835)
+[02.09.2025 19:19:21] Text: Добрый вечер Наталья,  подскажите пожалуйста, а можно доставку после семи вечера заказать?
+[02.09.2025 19:19:21] Starting mistral call for order detection
+[02.09.2025 19:19:21] mistral result: Array
+(
+)
+
+[02.09.2025 19:19:22] Starting mistral call for order detection
+[02.09.2025 19:19:22] mistral result: Array
+(
+    [is_order] => 
+    [items] => Array
+        (
+        )
+
+)
+
+[02.09.2025 19:19:22] Starting ollama call for order detection
+[02.09.2025 19:19:22] ollama result: Array
+(
+)
+
+[02.09.2025 19:19:22] Starting ollama call for order detection
+[02.09.2025 19:19:22] ollama result: Array
+(
+)
+
+[02.09.2025 19:19:22] Starting yandex call for order detection
+[02.09.2025 19:19:22] yandex result: Array
+(
+)
+
+[02.09.2025 19:19:22] Starting yandex call for order detection
+[02.09.2025 19:19:22] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T16:19:22.524316190Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 19:19:22] === END ORDER DETECTION ===
+
+Time: 02.09.2025 19:21:20
+Chat: -1002878974668
+Topic: 2501
+Text: Можно. Адрес в лс напишете
+---
+Array
+(
+    [message_id] => 2502
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756830080
+    [message_thread_id] => 2501
+    [reply_to_message] => Array
+        (
+            [message_id] => 2501
+            [from] => Array
+                (
+                    [id] => 5442362835
+                    [is_bot] => 
+                    [first_name] => Лена
+                    [last_name] => Титова
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002878974668
+                    [title] => FrutoMir
+                    [is_forum] => 1
+                    [type] => supergroup
+                )
+
+            [date] => 1756829961
+            [text] => Добрый вечер Наталья,  подскажите пожалуйста, а можно доставку после семи вечера заказать?
+        )
+
+    [text] => Можно. Адрес в лс напишете
+)
+
+---
+
+
+Time: 02.09.2025 19:22:37
+Chat: -1002878974668
+Topic: —
+Text: Спасибо
+---
+Array
+(
+    [message_id] => 2503
+    [from] => Array
+        (
+            [id] => 5442362835
+            [is_bot] => 
+            [first_name] => Лена
+            [last_name] => Титова
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756830157
+    [text] => Спасибо
+)
+
+---
+
+
+[02.09.2025 19:22:37] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 19:22:37] User: Лена Титова (ID: 5442362835)
+[02.09.2025 19:22:37] Text: Спасибо
+[02.09.2025 19:22:37] Starting mistral call for order detection
+[02.09.2025 19:22:37] mistral result: Array
+(
+)
+
+[02.09.2025 19:22:37] Starting mistral call for order detection
+[02.09.2025 19:22:37] mistral result: Array
+(
+    [is_order] => 
+    [items] => Array
+        (
+        )
+
+)
+
+[02.09.2025 19:22:37] Starting ollama call for order detection
+[02.09.2025 19:22:37] ollama result: Array
+(
+)
+
+Time: 02.09.2025 19:23:37
+Chat: -1002878974668
+Topic: —
+Text: Спасибо
+---
+Array
+(
+    [message_id] => 2503
+    [from] => Array
+        (
+            [id] => 5442362835
+            [is_bot] => 
+            [first_name] => Лена
+            [last_name] => Титова
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756830157
+    [text] => Спасибо
+)
+
+---
+
+
+[02.09.2025 19:23:37] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 19:23:37] User: Лена Титова (ID: 5442362835)
+[02.09.2025 19:23:37] Text: Спасибо
+[02.09.2025 19:23:37] Starting mistral call for order detection
+[02.09.2025 19:23:37] mistral result: Array
+(
+)
+
+[02.09.2025 19:23:37] Starting ollama call for order detection
+[02.09.2025 19:23:37] ollama result: Array
+(
+)
+
+[02.09.2025 19:23:37] Starting yandex call for order detection
+[02.09.2025 19:23:37] yandex result: Array
+(
+)
+
+[02.09.2025 19:23:38] Starting yandex call for order detection
+[02.09.2025 19:23:38] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T16:23:38.017567154Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 19:23:38] === END ORDER DETECTION ===
+
+[02.09.2025 19:23:38] Starting mistral call for order detection
+[02.09.2025 19:23:38] mistral result: Array
+(
+    [is_order] => 
+    [items] => Array
+        (
+        )
+
+)
+
+[02.09.2025 19:23:38] Starting ollama call for order detection
+[02.09.2025 19:23:38] ollama result: Array
+(
+)
+
+[02.09.2025 19:24:09] Starting ollama call for order detection
+[02.09.2025 19:24:09] ollama result: Array
+(
+)
+
+[02.09.2025 19:24:09] Starting yandex call for order detection
+[02.09.2025 19:24:09] yandex result: Array
+(
+)
+
+[02.09.2025 19:24:09] Starting yandex call for order detection
+[02.09.2025 19:24:09] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T16:24:09.565506084Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 19:24:09] === END ORDER DETECTION ===
+
+Time: 02.09.2025 19:52:52
+Chat: -1002878974668
+Topic: —
+Text: Добрый вечер НАТАЛЬЯ скажите пожалуйста сколько стоит доставка
+---
+Array
+(
+    [message_id] => 2504
+    [from] => Array
+        (
+            [id] => 1305543475
+            [is_bot] => 
+            [first_name] => Вика
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756831972
+    [text] => Добрый вечер НАТАЛЬЯ скажите пожалуйста сколько стоит доставка
+)
+
+---
+
+
+[02.09.2025 19:52:52] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 19:52:52] User: Вика (ID: 1305543475)
+[02.09.2025 19:52:52] Text: Добрый вечер НАТАЛЬЯ скажите пожалуйста сколько стоит доставка
+[02.09.2025 19:52:52] Starting mistral call for order detection
+[02.09.2025 19:52:52] mistral result: Array
+(
+)
+
+[02.09.2025 19:52:53] Starting mistral call for order detection
+[02.09.2025 19:52:53] mistral result: Array
+(
+    [is_order] => 
+    [items] => Array
+        (
+        )
+
+)
+
+[02.09.2025 19:52:53] Starting ollama call for order detection
+[02.09.2025 19:52:53] ollama result: Array
+(
+)
+
+Time: 02.09.2025 19:53:52
+Chat: -1002878974668
+Topic: —
+Text: Добрый вечер НАТАЛЬЯ скажите пожалуйста сколько стоит доставка
+---
+Array
+(
+    [message_id] => 2504
+    [from] => Array
+        (
+            [id] => 1305543475
+            [is_bot] => 
+            [first_name] => Вика
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756831972
+    [text] => Добрый вечер НАТАЛЬЯ скажите пожалуйста сколько стоит доставка
+)
+
+---
+
+
+[02.09.2025 19:53:52] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 19:53:52] User: Вика (ID: 1305543475)
+[02.09.2025 19:53:52] Text: Добрый вечер НАТАЛЬЯ скажите пожалуйста сколько стоит доставка
+[02.09.2025 19:53:52] Starting mistral call for order detection
+[02.09.2025 19:53:52] mistral result: Array
+(
+)
+
+[02.09.2025 19:53:53] Starting mistral call for order detection
+[02.09.2025 19:53:53] mistral result: Array
+(
+    [is_order] => 
+    [items] => Array
+        (
+        )
+
+)
+
+[02.09.2025 19:53:53] Starting ollama call for order detection
+[02.09.2025 19:53:53] ollama result: Array
+(
+)
+
+[02.09.2025 19:53:53] Starting ollama call for order detection
+[02.09.2025 19:53:53] ollama result: Array
+(
+)
+
+[02.09.2025 19:53:53] Starting yandex call for order detection
+[02.09.2025 19:53:53] yandex result: Array
+(
+)
+
+[02.09.2025 19:53:53] Starting yandex call for order detection
+[02.09.2025 19:53:53] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T16:53:53.294692500Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 19:53:53] === END ORDER DETECTION ===
+
+[02.09.2025 19:54:24] Starting ollama call for order detection
+[02.09.2025 19:54:24] ollama result: Array
+(
+)
+
+[02.09.2025 19:54:24] Starting yandex call for order detection
+[02.09.2025 19:54:24] yandex result: Array
+(
+)
+
+[02.09.2025 19:54:24] Starting yandex call for order detection
+[02.09.2025 19:54:24] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T16:54:24.880583838Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 19:54:24] === END ORDER DETECTION ===
+
+Time: 02.09.2025 20:44:13
+Chat: -1002878974668
+Topic: —
+Text: Добрый вечер Наташа спроси у Володи созрел виноград скрещенный с черной орхидеей Спасибо
+---
+Array
+(
+    [message_id] => 2505
+    [from] => Array
+        (
+            [id] => 5303797470
+            [is_bot] => 
+            [first_name] => Людмила
+            [last_name] => Литвин
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756835053
+    [text] => Добрый вечер Наташа спроси у Володи созрел виноград скрещенный с черной орхидеей Спасибо
+)
+
+---
+
+
+[02.09.2025 20:44:13] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 20:44:13] User: Людмила Литвин (ID: 5303797470)
+[02.09.2025 20:44:13] Text: Добрый вечер Наташа спроси у Володи созрел виноград скрещенный с черной орхидеей Спасибо
+[02.09.2025 20:44:13] Starting mistral call for order detection
+[02.09.2025 20:44:13] mistral result: Array
+(
+)
+
+[02.09.2025 20:44:14] Starting mistral call for order detection
+[02.09.2025 20:44:14] mistral result: Array
+(
+    [is_order] => 
+    [items] => Array
+        (
+        )
+
+)
+
+[02.09.2025 20:44:14] Starting ollama call for order detection
+[02.09.2025 20:44:14] ollama result: Array
+(
+)
+
+[02.09.2025 20:44:29] Starting ollama call for order detection
+[02.09.2025 20:44:29] ollama result: Array
+(
+)
+
+[02.09.2025 20:44:29] Starting yandex call for order detection
+[02.09.2025 20:44:29] yandex result: Array
+(
+)
+
+[02.09.2025 20:44:29] Starting yandex call for order detection
+[02.09.2025 20:44:29] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T17:44:29.600380555Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 20:44:29] === END ORDER DETECTION ===
+
+Time: 02.09.2025 20:45:41
+Chat: -1002878974668
+Topic: —
+Text: Если Вы имеете ввиду Аватар. то еще нет.
+---
+Array
+(
+    [message_id] => 2506
+    [from] => Array
+        (
+            [id] => 7840260986
+            [is_bot] => 
+            [first_name] => Наталья
+            [last_name] => Небрант
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756835141
+    [text] => Если Вы имеете ввиду Аватар. то еще нет.
+)
+
+---
+
+
+Time: 02.09.2025 20:57:57
+Chat: -1002878974668
+Topic: —
+Text: Я не знаю как он называется.темный длинный пальчик
+---
+Array
+(
+    [message_id] => 2507
+    [from] => Array
+        (
+            [id] => 5303797470
+            [is_bot] => 
+            [first_name] => Людмила
+            [last_name] => Литвин
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756835877
+    [text] => Я не знаю как он называется.темный длинный пальчик
+)
+
+---
+
+
+[02.09.2025 20:57:57] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 20:57:57] User: Людмила Литвин (ID: 5303797470)
+[02.09.2025 20:57:57] Text: Я не знаю как он называется.темный длинный пальчик
+[02.09.2025 20:57:57] Starting mistral call for order detection
+[02.09.2025 20:57:57] mistral result: Array
+(
+)
+
+[02.09.2025 20:57:58] Starting mistral call for order detection
+[02.09.2025 20:57:58] mistral result: Array
+(
+    [is_order] => 
+    [items] => Array
+        (
+        )
+
+)
+
+[02.09.2025 20:57:58] Starting ollama call for order detection
+[02.09.2025 20:57:58] ollama result: Array
+(
+)
+
+Time: 02.09.2025 20:58:57
+Chat: -1002878974668
+Topic: —
+Text: Я не знаю как он называется.темный длинный пальчик
+---
+Array
+(
+    [message_id] => 2507
+    [from] => Array
+        (
+            [id] => 5303797470
+            [is_bot] => 
+            [first_name] => Людмила
+            [last_name] => Литвин
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756835877
+    [text] => Я не знаю как он называется.темный длинный пальчик
+)
+
+---
+
+
+[02.09.2025 20:58:57] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 20:58:57] User: Людмила Литвин (ID: 5303797470)
+[02.09.2025 20:58:57] Text: Я не знаю как он называется.темный длинный пальчик
+[02.09.2025 20:58:57] Starting mistral call for order detection
+[02.09.2025 20:58:57] mistral result: Array
+(
+)
+
+[02.09.2025 20:58:58] Starting mistral call for order detection
+[02.09.2025 20:58:58] mistral result: Array
+(
+    [is_order] => 
+    [items] => Array
+        (
+        )
+
+)
+
+[02.09.2025 20:58:58] Starting ollama call for order detection
+[02.09.2025 20:58:58] ollama result: Array
+(
+)
+
+[02.09.2025 20:58:58] Starting ollama call for order detection
+[02.09.2025 20:58:58] ollama result: Array
+(
+)
+
+[02.09.2025 20:58:58] Starting yandex call for order detection
+[02.09.2025 20:58:58] yandex result: Array
+(
+)
+
+[02.09.2025 20:58:58] Starting yandex call for order detection
+[02.09.2025 20:58:58] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T17:58:58.392128403Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 20:58:58] === END ORDER DETECTION ===
+
+[02.09.2025 20:59:29] Starting ollama call for order detection
+[02.09.2025 20:59:29] ollama result: Array
+(
+)
+
+[02.09.2025 20:59:29] Starting yandex call for order detection
+[02.09.2025 20:59:29] yandex result: Array
+(
+)
+
+[02.09.2025 20:59:29] Starting yandex call for order detection
+[02.09.2025 20:59:29] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T17:59:29.907287977Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 20:59:29] === END ORDER DETECTION ===
+
+Time: 02.09.2025 20:59:29
+Chat: -1002878974668
+Topic: —
+Text: Растет на месте черной орхидеи
+---
+Array
+(
+    [message_id] => 2508
+    [from] => Array
+        (
+            [id] => 5303797470
+            [is_bot] => 
+            [first_name] => Людмила
+            [last_name] => Литвин
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756835930
+    [text] => Растет на месте черной орхидеи
+)
+
+---
+
+
+[02.09.2025 20:59:30] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 20:59:30] User: Людмила Литвин (ID: 5303797470)
+[02.09.2025 20:59:30] Text: Растет на месте черной орхидеи
+[02.09.2025 20:59:30] Starting mistral call for order detection
+[02.09.2025 20:59:30] mistral result: Array
+(
+)
+
+[02.09.2025 20:59:30] Starting mistral call for order detection
+[02.09.2025 20:59:30] mistral result: Array
+(
+    [is_order] => 
+    [items] => Array
+        (
+        )
+
+)
+
+[02.09.2025 20:59:30] Starting ollama call for order detection
+[02.09.2025 20:59:30] ollama result: Array
+(
+)
+
+[02.09.2025 20:59:37] Starting ollama call for order detection
+[02.09.2025 20:59:37] ollama result: Array
+(
+)
+
+[02.09.2025 20:59:37] Starting yandex call for order detection
+[02.09.2025 20:59:37] yandex result: Array
+(
+)
+
+[02.09.2025 20:59:37] Starting yandex call for order detection
+[02.09.2025 20:59:37] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T17:59:37.842644824Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 20:59:37] === END ORDER DETECTION ===
+
+Time: 02.09.2025 21:31:31
+Chat: -1002878974668
+Topic: —
+Text: ул. Кирова 150 кв 4
+Виноград Виктор - 1кг
+Нектарники манго -1кг
+Арбуз тельманово -1 шт(5-6кг)
+Помидор чёрный принц -1,5 кг
+Баклажан - 2кг
+Лук репчатый - 1 кг
+Помидор сливка - 1,5 кгс
+Перец полёт - 1 кг
+Картофель иван да Марья - 3-4кг
+Капуста - 1 вилок(2-3кг) 
+Перец Халопенью - 0,5 кг
+Томатная паста 200 г - 1 шт
+Пряник творожный - 1 кг
+Сода - 1 пачка
+Бумажные полотенца 1шт
+Пломбир вишня в шоколаде 450г - 1 шт
+Черноголовка лимонад 1 шт
+Пожалуйста, доставка после 19.00.
+Спасибо за понимание)))
+---
+Array
+(
+    [message_id] => 2509
+    [from] => Array
+        (
+            [id] => 5442362835
+            [is_bot] => 
+            [first_name] => Лена
+            [last_name] => Титова
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756837891
+    [text] => ул. Кирова 150 кв 4
+Виноград Виктор - 1кг
+Нектарники манго -1кг
+Арбуз тельманово -1 шт(5-6кг)
+Помидор чёрный принц -1,5 кг
+Баклажан - 2кг
+Лук репчатый - 1 кг
+Помидор сливка - 1,5 кгс
+Перец полёт - 1 кг
+Картофель иван да Марья - 3-4кг
+Капуста - 1 вилок(2-3кг) 
+Перец Халопенью - 0,5 кг
+Томатная паста 200 г - 1 шт
+Пряник творожный - 1 кг
+Сода - 1 пачка
+Бумажные полотенца 1шт
+Пломбир вишня в шоколаде 450г - 1 шт
+Черноголовка лимонад 1 шт
+Пожалуйста, доставка после 19.00.
+Спасибо за понимание)))
+)
+
+---
+
+
+[02.09.2025 21:31:31] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 21:31:31] User: Лена Титова (ID: 5442362835)
+[02.09.2025 21:31:31] Text: ул. Кирова 150 кв 4
+Виноград Виктор - 1кг
+Нектарники манго -1кг
+Арбуз тельманово -1 шт(5-6кг)
+Помидор чёрный принц -1,5 кг
+Баклажан - 2кг
+Лук репчатый - 1 кг
+Помидор сливка - 1,5 кгс
+Перец полёт - 1 кг
+Картофель иван да Марья - 3-4кг
+Капуста - 1 вилок(2-3кг) 
+Перец Халопенью - 0,5 кг
+Томатная паста 200 г - 1 шт
+Пряник творожный - 1 кг
+Сода - 1 пачка
+Бумажные полотенца 1шт
+Пломбир вишня в шоколаде 450г - 1 шт
+Черноголовка лимонад 1 шт
+Пожалуйста, доставка после 19.00.
+Спасибо за понимание)))
+[02.09.2025 21:31:31] Starting mistral call for order detection
+[02.09.2025 21:31:31] mistral result: Array
+(
+)
+
+[02.09.2025 21:31:34] Starting mistral call for order detection
+[02.09.2025 21:31:34] mistral result: Array
+(
+    [is_order] => 1
+    [items] => Array
+        (
+            [0] => Виноград Виктор - 1кг
+            [1] => Нектарники манго -1кг
+            [2] => Арбуз тельманово -1 шт(5-6кг)
+            [3] => Помидор чёрный принц -1,5 кг
+            [4] => Баклажан - 2кг
+            [5] => Лук репчатый - 1 кг
+            [6] => Помидор сливка - 1,5 кгс
+            [7] => Перец полёт - 1 кг
+            [8] => Картофель иван да Марья - 3-4кг
+            [9] => Капуста - 1 вилок(2-3кг)
+            [10] => Перец Халопенью - 0,5 кг
+            [11] => Томатная паста 200 г - 1 шт
+            [12] => Пряник творожный - 1 кг
+            [13] => Сода - 1 пачка
+            [14] => Бумажные полотенца 1шт
+            [15] => Пломбир вишня в шоколаде 450г - 1 шт
+            [16] => Черноголовка лимонад 1 шт
+        )
+
+)
+
+[02.09.2025 21:31:34] ORDER DETECTED BY MISTRAL!
+[02.09.2025 21:31:34] Starting ollama call for order detection
+[02.09.2025 21:31:34] ollama result: Array
+(
+)
+
+Time: 02.09.2025 21:32:31
+Chat: -1002878974668
+Topic: —
+Text: ул. Кирова 150 кв 4
+Виноград Виктор - 1кг
+Нектарники манго -1кг
+Арбуз тельманово -1 шт(5-6кг)
+Помидор чёрный принц -1,5 кг
+Баклажан - 2кг
+Лук репчатый - 1 кг
+Помидор сливка - 1,5 кгс
+Перец полёт - 1 кг
+Картофель иван да Марья - 3-4кг
+Капуста - 1 вилок(2-3кг) 
+Перец Халопенью - 0,5 кг
+Томатная паста 200 г - 1 шт
+Пряник творожный - 1 кг
+Сода - 1 пачка
+Бумажные полотенца 1шт
+Пломбир вишня в шоколаде 450г - 1 шт
+Черноголовка лимонад 1 шт
+Пожалуйста, доставка после 19.00.
+Спасибо за понимание)))
+---
+Array
+(
+    [message_id] => 2509
+    [from] => Array
+        (
+            [id] => 5442362835
+            [is_bot] => 
+            [first_name] => Лена
+            [last_name] => Титова
+        )
+
+    [chat] => Array
+        (
+            [id] => -1002878974668
+            [title] => FrutoMir
+            [is_forum] => 1
+            [type] => supergroup
+        )
+
+    [date] => 1756837891
+    [text] => ул. Кирова 150 кв 4
+Виноград Виктор - 1кг
+Нектарники манго -1кг
+Арбуз тельманово -1 шт(5-6кг)
+Помидор чёрный принц -1,5 кг
+Баклажан - 2кг
+Лук репчатый - 1 кг
+Помидор сливка - 1,5 кгс
+Перец полёт - 1 кг
+Картофель иван да Марья - 3-4кг
+Капуста - 1 вилок(2-3кг) 
+Перец Халопенью - 0,5 кг
+Томатная паста 200 г - 1 шт
+Пряник творожный - 1 кг
+Сода - 1 пачка
+Бумажные полотенца 1шт
+Пломбир вишня в шоколаде 450г - 1 шт
+Черноголовка лимонад 1 шт
+Пожалуйста, доставка после 19.00.
+Спасибо за понимание)))
+)
+
+---
+
+
+[02.09.2025 21:32:31] === ORDER DETECTION (ALL_SERVICES) ===
+[02.09.2025 21:32:31] User: Лена Титова (ID: 5442362835)
+[02.09.2025 21:32:31] Text: ул. Кирова 150 кв 4
+Виноград Виктор - 1кг
+Нектарники манго -1кг
+Арбуз тельманово -1 шт(5-6кг)
+Помидор чёрный принц -1,5 кг
+Баклажан - 2кг
+Лук репчатый - 1 кг
+Помидор сливка - 1,5 кгс
+Перец полёт - 1 кг
+Картофель иван да Марья - 3-4кг
+Капуста - 1 вилок(2-3кг) 
+Перец Халопенью - 0,5 кг
+Томатная паста 200 г - 1 шт
+Пряник творожный - 1 кг
+Сода - 1 пачка
+Бумажные полотенца 1шт
+Пломбир вишня в шоколаде 450г - 1 шт
+Черноголовка лимонад 1 шт
+Пожалуйста, доставка после 19.00.
+Спасибо за понимание)))
+[02.09.2025 21:32:31] Starting mistral call for order detection
+[02.09.2025 21:32:31] mistral result: Array
+(
+)
+
+[02.09.2025 21:32:33] Starting mistral call for order detection
+[02.09.2025 21:32:33] mistral result: Array
+(
+    [is_order] => 1
+    [items] => Array
+        (
+            [0] => 1. Виноград Виктор - 1кг
+            [1] => 2. Нектарники манго -1кг
+            [2] => 3. Арбуз тельманово -1 шт(5-6кг)
+            [3] => 4. Помидор чёрный принц -1,5 кг
+            [4] => 5. Баклажан - 2кг
+            [5] => 6. Лук репчатый - 1 кг
+            [6] => 7. Помидор сливка - 1,5 кгс
+            [7] => 8. Перец полёт - 1 кг
+            [8] => 9. Картофель иван да Марья - 3-4кг
+            [9] => 10. Капуста - 1 вилок(2-3кг)
+            [10] => 11. Перец Халопенью - 0,5 кг
+            [11] => 12. Томатная паста 200 г - 1 шт
+            [12] => 13. Пряник творожный - 1 кг
+            [13] => 14. Сода - 1 пачка
+            [14] => 15. Бумажные полотенца 1шт
+            [15] => 16. Пломбир вишня в шоколаде 450г - 1 шт
+            [16] => 17. Черноголовка лимонад 1 шт
+        )
+
+)
+
+[02.09.2025 21:32:33] ORDER DETECTED BY MISTRAL!
+[02.09.2025 21:32:34] Starting ollama call for order detection
+[02.09.2025 21:32:34] ollama result: Array
+(
+)
+
+[02.09.2025 21:32:34] Starting ollama call for order detection
+[02.09.2025 21:32:34] ollama result: Array
+(
+)
+
+[02.09.2025 21:32:34] Starting yandex call for order detection
+[02.09.2025 21:32:34] yandex result: Array
+(
+)
+
+[02.09.2025 21:32:34] Starting yandex call for order detection
+[02.09.2025 21:32:34] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T18:32:34.341371392Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 21:32:34] === END ORDER DETECTION ===
+
+[02.09.2025 21:32:34] Starting ollama call for order detection
+[02.09.2025 21:32:34] ollama result: Array
+(
+)
+
+[02.09.2025 21:32:34] Starting yandex call for order detection
+[02.09.2025 21:32:34] yandex result: Array
+(
+)
+
+[02.09.2025 21:32:34] Starting yandex call for order detection
+[02.09.2025 21:32:34] yandex result: Array
+(
+    [error] => API error HTTP 401
+    [raw] => {"error":{"grpcCode":16,"httpCode":401,"message":"The token has expired 2025-08-28T21:32:27.741407150Z. Now 2025-09-02T18:32:34.650790248Z, which is more than PT10M later","httpStatus":"Unauthorized","details":[]}}
+)
+
+[02.09.2025 21:32:34] === END ORDER DETECTION ===
+

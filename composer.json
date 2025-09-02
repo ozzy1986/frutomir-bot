@@ -1,0 +1,16 @@
+{
+    "name": "frutomir/telegram-bot",
+    "description": "FrutoMir Telegram Bot for order management",
+    "type": "project",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FrutoMir\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
