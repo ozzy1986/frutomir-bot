@@ -25,6 +25,7 @@ class TelegramBot
         $this->config = new Configuration();
         $this->telegramApi = new TelegramApi($this->config);
         $this->logger = new Logger();
+        $this->logger->info("BOT init php=" . PHP_VERSION . " tz=" . date_default_timezone_get());
         $this->orderDetector = new OrderDetector($this->config);
         $this->messageHandler = new MessageHandler(
             $this->config,
@@ -39,13 +40,26 @@ class TelegramBot
      */
     public function processWebhook()
     {
+        $this->logger->debug(
+            "WEBHOOK begin method=" . ($_SERVER['REQUEST_METHOD'] ?? 'CLI') .
+            " ip=" . ($_SERVER['REMOTE_ADDR'] ?? 'unknown') .
+            " len=" . (int)($_SERVER['CONTENT_LENGTH'] ?? 0)
+        );
         $input = $this->getWebhookInput();
         
-        if (!$this->isValidMessage($input)) {
+        if (empty($input)) {
+            $this->logger->warn("WEBHOOK empty payload");
             return;
         }
 
+        if (!$this->isValidMessage($input)) {
+            $this->logger->warn("WEBHOOK invalid payload");
+            return;
+        }
+
+        $this->logger->debug("WEBHOOK ok message_id=" . ($input['message']['message_id'] ?? '—'));
         $this->messageHandler->handleMessage($input['message']);
+        $this->logger->debug("WEBHOOK end");
     }
 
     /**
@@ -54,6 +68,7 @@ class TelegramBot
     private function getWebhookInput()
     {
         $rawInput = file_get_contents('php://input');
+        $this->logger->debug("WEBHOOK raw_len=" . strlen((string)$rawInput));
         return json_decode($rawInput, true) ?? [];
     }
 

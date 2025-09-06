@@ -3,61 +3,106 @@
 namespace FrutoMir\Logger;
 
 /**
- * Simple logger class for bot operations
- * Follows Single Responsibility Principle
+ * Lightweight logger with rotation and log levels.
  */
 class Logger
 {
-    private $logFile;
+    const LEVEL_DEBUG = 'DEBUG';
+    const LEVEL_INFO  = 'INFO';
+    const LEVEL_WARN  = 'WARN';
+    const LEVEL_ERROR = 'ERROR';
 
-    public function __construct($logFile = 'log.txt')
+    private $logFile;
+    private $minLevelOrder;
+    private $levelToOrder;
+    private $maxSizeBytes;
+    private $maxFiles;
+
+    public function __construct($logFile = 'log.txt', $minLevel = self::LEVEL_DEBUG, $maxSizeBytes = 1048576, $maxFiles = 5)
     {
         $this->logFile = $logFile;
+        $this->levelToOrder = [
+            self::LEVEL_DEBUG => 10,
+            self::LEVEL_INFO  => 20,
+            self::LEVEL_WARN  => 30,
+            self::LEVEL_ERROR => 40,
+        ];
+        $this->minLevelOrder = $this->levelToOrder[$minLevel] ?? 20;
+        $this->maxSizeBytes = $maxSizeBytes; // 1 MB default
+        $this->maxFiles = $maxFiles;         // keep 5 files: log.txt, log.txt.1..4
     }
 
     /**
-     * Log a message with timestamp
+     * Backward compatible: info-level log
      */
     public function log($message)
     {
-        $timestamp = date('d.m.Y H:i:s');
-        $logEntry = "[{$timestamp}] {$message}\n";
-        file_put_contents($this->logFile, $logEntry, FILE_APPEND | LOCK_EX);
+        $this->write(self::LEVEL_INFO, $message);
+    }
+
+    public function debug($message)
+    {
+        $this->write(self::LEVEL_DEBUG, $message);
+    }
+
+    public function info($message)
+    {
+        $this->write(self::LEVEL_INFO, $message);
+    }
+
+    public function warn($message)
+    {
+        $this->write(self::LEVEL_WARN, $message);
+    }
+
+    public function error($message)
+    {
+        $this->write(self::LEVEL_ERROR, $message);
     }
 
     /**
-     * Log incoming message data
+     * Brief log of incoming message data
      */
     public function logMessage($messageData)
     {
         $chatId = $messageData['chat']['id'] ?? 'unknown';
         $threadId = $messageData['message_thread_id'] ?? '—';
-        $text = $messageData['text'] ?? '';
-        $time = date('d.m.Y H:i:s');
+        $messageId = $messageData['message_id'] ?? '—';
+        $userId = $messageData['from']['id'] ?? '—';
+        $text = $messageData['text'] ?? ($messageData['caption'] ?? '');
+        $text = $this->truncate($text, 200);
+        $types = [];
+        foreach (['text','photo','document','sticker','audio','video'] as $t) {
+            if (isset($messageData[$t])) { $types[] = $t; }
+        }
+        $typesStr = $types ? implode(',', $types) : 'unknown';
 
-        $logEntry = "Time: {$time}\nChat: {$chatId}\nTopic: {$threadId}\nText: {$text}\n---\n" 
-                   . print_r($messageData, true) . "\n---\n\n\n";
-        
-        file_put_contents($this->logFile, $logEntry, FILE_APPEND | LOCK_EX);
+        $this->info("MSG chat={$chatId} thread={$threadId} msg={$messageId} user={$userId} types={$typesStr} text=\"{$text}\"");
     }
 
     /**
-     * Log order detection process
+     * Log order detection process (brief)
      */
     public function logOrderDetection($service, $userName, $userId, $text)
     {
-        $this->log("=== ORDER DETECTION ({$service}) ===");
-        $this->log("User: {$userName} (ID: {$userId})");
-        $this->log("Text: {$text}");
+        $this->info("ORDER_DETECT start service={$service} user={$userName}({$userId}) text=\"" . $this->truncate($text, 200) . "\"");
     }
 
     /**
-     * Log API call results
+     * Log API call results (brief)
      */
     public function logApiResult($service, $result)
     {
-        $this->log("Starting {$service} call for order detection");
-        $this->log("{$service} result: " . print_r($result, true));
+        if (is_array($result)) {
+            if (isset($result['error'])) {
+                $this->warn("AI {$service} error=" . $this->truncate(json_encode($result, JSON_UNESCAPED_UNICODE), 300));
+                return;
+            }
+            $keys = implode(',', array_slice(array_keys($result), 0, 5));
+            $this->debug("AI {$service} result_keys=[{$keys}]");
+        } else {
+            $this->debug("AI {$service} result_type=" . gettype($result));
+        }
     }
 
     /**
@@ -65,14 +110,54 @@ class Logger
      */
     public function logDetectedOrder($service)
     {
-        $this->log("ORDER DETECTED BY {$service}!");
+        $this->info("ORDER_DETECT matched_by={$service}");
     }
 
-    /**
-     * End order detection logging
-     */
     public function endOrderDetection()
     {
-        $this->log("=== END ORDER DETECTION ===\n");
+        $this->info("ORDER_DETECT end");
+    }
+
+    private function write($level, $message)
+    {
+        if (($this->levelToOrder[$level] ?? 100) < $this->minLevelOrder) {
+            return;
+        }
+        $this->rotateIfNeeded();
+        $timestamp = date('d.m.Y H:i:s');
+        $pid = getmypid();
+        $line = "[{$timestamp}] {$level} [pid={$pid}] {$message}\n";
+        @file_put_contents($this->logFile, $line, FILE_APPEND | LOCK_EX);
+    }
+
+    private function rotateIfNeeded()
+    {
+        clearstatcache(true, $this->logFile);
+        if (!file_exists($this->logFile)) {
+            return;
+        }
+        $size = filesize($this->logFile);
+        if ($size === false || $size < $this->maxSizeBytes) {
+            return;
+        }
+
+        for ($i = $this->maxFiles - 1; $i >= 1; $i--) {
+            $src = $this->logFile . ($i === 1 ? '' : '.' . ($i - 1));
+            $dst = $this->logFile . '.' . $i;
+            if (file_exists($src)) {
+                @rename($src, $dst);
+            }
+        }
+        // Finally move current to .1 and create new file
+        @rename($this->logFile, $this->logFile . '.1');
+    }
+
+    private function truncate($string, $maxLen)
+    {
+        $string = (string)$string;
+        if (mb_strlen($string, 'UTF-8') <= $maxLen) {
+            return $string;
+        }
+        return mb_substr($string, 0, $maxLen, 'UTF-8') . '…';
     }
 }
