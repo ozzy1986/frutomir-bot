@@ -108,7 +108,7 @@ If the message is not an order, respond exactly with: null";
                 "header"  => "Content-type: application/json\r\n",
                 "method"  => "POST",
                 "content" => json_encode($data),
-                "timeout" => 60
+                "timeout" => 20
             ]
         ];
 
@@ -146,7 +146,8 @@ If the message is not an order, respond exactly with: null";
             CURLOPT_HTTPHEADER => $headers,
             CURLOPT_POST => true,
             CURLOPT_POSTFIELDS => json_encode($payload, JSON_UNESCAPED_UNICODE),
-            CURLOPT_TIMEOUT => 30,
+            CURLOPT_CONNECTTIMEOUT => 5,
+            CURLOPT_TIMEOUT => 20,
             CURLOPT_SSL_VERIFYPEER => true,
             CURLOPT_SSL_VERIFYHOST => 2
         ]);

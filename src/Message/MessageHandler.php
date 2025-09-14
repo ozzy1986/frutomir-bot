@@ -81,12 +81,12 @@ class MessageHandler
 
         // Exit if admin posted - don't move admin messages
         if (in_array($userStatus, ['creator', 'administrator'])) {
-            exit;
+            return;
         }
 
         // if the message is in main topic (Заказы/Отзывы), then do nothing
         if ($messageThreadId === null) {
-            exit;
+            return;
         }
 
         $this->logger->log("Moving message from topic to main chat");

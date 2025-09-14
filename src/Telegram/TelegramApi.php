@@ -12,6 +12,8 @@ class TelegramApi
 {
     private $config;
     private $baseUrl;
+    private $defaultTimeoutSeconds = 20;
+    private $defaultConnectTimeoutSeconds = 5;
 
     public function __construct($config)
     {
@@ -57,7 +59,7 @@ class TelegramApi
     public function deleteMessage($chatId, $messageId)
     {
         $url = "{$this->baseUrl}/deleteMessage?chat_id={$chatId}&message_id={$messageId}";
-        return file_get_contents($url);
+        return $this->getWithTimeout($url);
     }
 
     /**
@@ -66,8 +68,8 @@ class TelegramApi
     public function getChatMember($chatId, $userId)
     {
         $url = "{$this->baseUrl}/getChatMember?chat_id={$chatId}&user_id={$userId}";
-        $response = file_get_contents($url);
-        return json_decode($response, true) ?? [];
+        $response = $this->getWithTimeout($url);
+        return $response ? (json_decode($response, true) ?? []) : [];
     }
 
     /**
@@ -75,9 +77,11 @@ class TelegramApi
      */
     public function getForumTopicById($chatId, $threadId)
     {
+        // Note: Telegram Bot API does not provide a method to fetch topic by ID.
+        // We keep this method for backward compatibility but make it safe and non-blocking.
         $url = "{$this->baseUrl}/getForumTopicByID?chat_id={$chatId}&message_thread_id={$threadId}";
-        $response = file_get_contents($url);
-        return json_decode($response, true) ?? [];
+        $response = $this->getWithTimeout($url);
+        return $response ? (json_decode($response, true) ?? []) : [];
     }
 
     /**
@@ -91,6 +95,8 @@ class TelegramApi
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $this->defaultConnectTimeoutSeconds);
+        curl_setopt($ch, CURLOPT_TIMEOUT, $this->defaultTimeoutSeconds);
         
         $response = curl_exec($ch);
         
@@ -100,5 +106,28 @@ class TelegramApi
 
         curl_close($ch);
         return $response ?: null;
+    }
+
+    /**
+     * Safe GET request with timeouts and error handling
+     */
+    private function getWithTimeout($url)
+    {
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $this->defaultConnectTimeoutSeconds);
+        curl_setopt($ch, CURLOPT_TIMEOUT, $this->defaultTimeoutSeconds);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        $response = curl_exec($ch);
+        if ($response === false) {
+            curl_close($ch);
+            return null;
+        }
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+        if ($httpCode !== 200) {
+            return null;
+        }
+        return $response;
     }
 }

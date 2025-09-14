@@ -17,10 +17,11 @@ class Logger
     private $levelToOrder;
     private $maxSizeBytes;
     private $maxFiles;
+    private $fallbackLogFile;
 
     public function __construct($logFile = 'log.txt', $minLevel = self::LEVEL_DEBUG, $maxSizeBytes = 1048576, $maxFiles = 5)
     {
-        $this->logFile = $logFile;
+        $this->logFile = $this->resolveLogPath($logFile);
         $this->levelToOrder = [
             self::LEVEL_DEBUG => 10,
             self::LEVEL_INFO  => 20,
@@ -30,6 +31,7 @@ class Logger
         $this->minLevelOrder = $this->levelToOrder[$minLevel] ?? 20;
         $this->maxSizeBytes = $maxSizeBytes; // 1 MB default
         $this->maxFiles = $maxFiles;         // keep 5 files: log.txt, log.txt.1..4
+        $this->fallbackLogFile = rtrim(sys_get_temp_dir(), DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . 'frutomir-telegram-bot.log';
     }
 
     /**
@@ -127,7 +129,10 @@ class Logger
         $timestamp = date('d.m.Y H:i:s');
         $pid = getmypid();
         $line = "[{$timestamp}] {$level} [pid={$pid}] {$message}\n";
-        @file_put_contents($this->logFile, $line, FILE_APPEND | LOCK_EX);
+        $ok = @file_put_contents($this->logFile, $line, FILE_APPEND | LOCK_EX);
+        if ($ok === false && $this->logFile !== $this->fallbackLogFile) {
+            @file_put_contents($this->fallbackLogFile, $line, FILE_APPEND | LOCK_EX);
+        }
     }
 
     private function rotateIfNeeded()
@@ -150,6 +155,24 @@ class Logger
         }
         // Finally move current to .1 and create new file
         @rename($this->logFile, $this->logFile . '.1');
+    }
+
+    private function resolveLogPath($path)
+    {
+        if ($this->isAbsolutePath($path)) {
+            return $path;
+        }
+        $projectRoot = dirname(__DIR__, 2);
+        return rtrim($projectRoot, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . ltrim($path, DIRECTORY_SEPARATOR);
+    }
+
+    private function isAbsolutePath($path)
+    {
+        if ($path === '') { return false; }
+        if ($path[0] === '/') { return true; }
+        if (preg_match('/^[A-Za-z]:[\\\\\/]/', $path)) { return true; }
+        if (strpos($path, '\\') === 0) { return true; }
+        return false;
     }
 
     private function truncate($string, $maxLen)
