@@ -263,24 +263,24 @@ class MessageHandler
         }
 
         // Ollama detection
-        $this->logger->logApiResult('ollama', []);
-        $result = $this->orderDetector->detectWithOllama($text);
-        $this->logger->logApiResult('ollama', $result ?? []);
+        // $this->logger->logApiResult('ollama', []);
+        // $result = $this->orderDetector->detectWithOllama($text);
+        // $this->logger->logApiResult('ollama', $result ?? []);
         
-        if ($this->isValidOrder($result)) {
-            $this->logger->logDetectedOrder('OLLAMA');
-            $this->sendOrderNotification('Ollama', $userName, $result['items']);
-        }
+        // if ($this->isValidOrder($result)) {
+        //     $this->logger->logDetectedOrder('OLLAMA');
+        //     $this->sendOrderNotification('Ollama', $userName, $result['items']);
+        // }
 
-        // Yandex detection
-        $this->logger->logApiResult('yandex', []);
-        $result = $this->orderDetector->detectWithYandex($text);
-        $this->logger->logApiResult('yandex', $result);
+        // // Yandex detection
+        // $this->logger->logApiResult('yandex', []);
+        // $result = $this->orderDetector->detectWithYandex($text);
+        // $this->logger->logApiResult('yandex', $result);
         
-        if ($this->isValidOrder($result)) {
-            $this->logger->logDetectedOrder('YANDEX');
-            $this->sendOrderNotification('Yandex', $userName, $result['items']);
-        }
+        // if ($this->isValidOrder($result)) {
+        //     $this->logger->logDetectedOrder('YANDEX');
+        //     $this->sendOrderNotification('Yandex', $userName, $result['items']);
+        // }
     }
 
     /**
